@@ -1,0 +1,398 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: black;
+}
+
+header {
+    width: 1409px;
+    height: 11%;
+    display: flex;
+    align-items: center;
+    margin-left: 143px;
+    background: linear-gradient(-45deg, #bd3810, #5b3ce7, #60c4e9, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+.headerI {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerMenu {
+    display: flex;
+    list-style: none;
+    width: 90%;
+    height: 80%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 23px;
+}
+
+nav {
+    width: 41%;
+    height: 100%;
+    margin-right: -161px;
+}
+
+.logotipe {
+    display: block;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+}
+
+.button {
+    width: 200px;
+    height: 60px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 5px 5px aquamarine;
+    margin-left: 177px;
+    margin-top: 18px;
+}
+
+.button>a {
+    color: aqua;
+    text-decoration: none;
+}
+
+.logotipe {
+    display: flex;
+    width: 72px;
+    height: 66px;
+    margin-left: 109px;
+}
+
+.logo>img {
+    width: 100%;
+    height: 100%;
+}
+
+.h {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 300;
+    font-size: 70px;
+    text-align: right;
+    margin-left: 371px;
+    margin-top: 90px;
+}
+
+.p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 748px;
+}
+
+main {
+    width: 84%;
+    height: 2710px;
+    display: flex;
+    margin-top: 0px;
+    margin-left: 143px;
+    flex-direction: column;
+}
+
+.mainI {
+    width: 1409px;
+    height: 700px;
+    background-image: url(/assets/both-ood-iceland-houses-have-a-hot-tub-at-the-front-overlooking-the-spectacular-scenery-this-makes-the-experience-even-more-surreal-says-ceo-andreas-tiik\ 1.png);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+
+.arrows {
+    width: 113px;
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 400px;
+    margin-right: 70px;
+}
+
+
+.mainCabins {
+    width: 1409px;
+    height: 747px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 1100px;
+}
+
+.hCabins {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 40px;
+    display: flex;
+    margin-right: 945px;
+    margin-top: -100px;
+}
+
+.pCabins {
+    font-family: 'Open Sans';
+    font-style: normal;
+    size: 18px;
+    line-height: 30px;
+    margin-right: 721px;
+}
+
+.cabinsI {
+    height: 747px;
+    width: 1409px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: -747px;
+}
+
+.bed {
+    width: 693px;
+    height: 438px;
+    background-image: url(/assets/the-bed-features-luxurious-supima-linen-and-woolen-blankets-as-well-as-hand-knit-pillows-from-a-local-artist\ 1.png);
+    display: flex;
+    margin-left: 585px;
+    margin-top: -383px;
+}
+
+.readMore {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    margin-left: -1100px;
+    color: gray;
+}
+
+.readMore>a {
+    color: gray;
+}
+
+.cabin1 {
+    width: 432px;
+    height: 387px;
+    background-image: url(/assets/c_383_b66affda-a307-4d28-b405-2a2b6477c8ae\ 1.png);
+    display: flex;
+    margin-right: 947px;
+    margin-top: 54px;
+}
+
+.cabin2 {
+    width: 432px;
+    height: 387px;
+    background-image: url(/assets/ood-always-hopes-to-make-people-feel-at-home-says-ceo-andreas-tiik-this-approachfound-in-the-use-of-materials-the-bespoke-solutions-and-the-warmth-of-the-kitchenmake.png);
+    display: flex;
+    align-items: flex-end;
+    margin-top: -387px;
+}
+
+.cabin3 {
+    width: 432px;
+    height: 387px;
+    background-image: url(/assets/DJI_0762\ 1.png);
+    display: flex;
+    margin-left: 949px;
+    margin-top: -388px;
+}
+
+.mainFacilities {
+    background-color: #5B6460/*rgba(128, 128, 128, 0.288);*/;
+    width: 1409px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.facilitiesI {
+    width: 40%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    align-items: center;
+}
+
+.facilitiesLine {
+    width: 41%;
+    height: 54%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 23px;
+}
+
+.textFacilities {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.moreAU {
+    width: 1409px;
+    height: 23%;
+    background-color: white;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftImg {
+    width: 50%;
+    height: 100%;
+    background-color: red;
+    background-image:url(/assets/the-cabins-overlook-the-hekla-volcano-one-of-icelands-most-active-volcanoes-it-is-part-of-a-25-mile-long-volcanic-ridge-and-during-the-middle-ages-it-was-referred-to.png)
+}
+
+.rightImg {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: right;
+    background-image:url(/assets/unique-panorama-glass-lodge-iceland8\ 1.png)
+}
+
+.circle {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 157px;
+    height: 157px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'DIN';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;   
+}
+
+footer {
+    background-color: gray;
+    width: 1409px;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    align-items:center;
+    margin-left: 143px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.burokrate {
+    padding-top: 32px;
+    height: 40px;
+    width: 600px;
+    margin-right: -689px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.burokrateUl {
+    display: flex;
+    list-style: none;
+    width: 90%;
+    height: 80%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'DIN';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: underline;
+}
+
+#mail {
+    border: none;
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+.email {
+    width: 435px;
+    height: 400px;
+    margin-left: -890px;
+    display: flex;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'DIN';
+}
+
+.emailUl {
+    list-style: none;
+    color: white;
+    line-height: 32px;
+}
+
+
+
+.cards {
+    padding-bottom: 10px;
+    margin-right: -689px;
+    width: 41%;
+    height: 20%;
+    text-align: center;
+    display: inline-block;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardsUl {
+    display: flex;
+    list-style: none;
+    width: 90%;
+    height: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sale {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 30px;
+}
